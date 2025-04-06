@@ -9,7 +9,7 @@ plt.style.use('fivethirtyeight')
 import seaborn as sns
 import xgboost as xgb
 import kagglehub
-robikscube_hourly_energy_consumption_path = kagglehub.dataset_download('robikscube/hourly-energy-consumption')   # change this to our data
+robikscube_hourly_energy_consumption_path = kagglehub.dataset_download('robikscube/hourly-energy-consumption')   # change this to our data when data is cleaned
 print('Data source import complete.')
 # Load and setup data
 csv_path = os.path.join(robikscube_hourly_energy_consumption_path, 'PJME_hourly.csv')
